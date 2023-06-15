@@ -18,6 +18,7 @@ Three important metrics that I was told are constantly looked at are,
   3) Average Trades per Month - This is important becaue it is a metric that allows you to see the usage of the Firm m/m.
 
 From there I wrote SQL queries to find out this information which can be found in the 'SQL_Queiries' section.
+
 (Note: Since the data was randomly generated, it may all looks pretty similar which makes sense because normal distribution).
 
 Lastly, I wanted to show off this information using Power BI, which can be found in the 'Power_BI_Visualization' section.
