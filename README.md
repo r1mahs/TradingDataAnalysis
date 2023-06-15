@@ -11,3 +11,12 @@ From there then I went to python to write a script that would generate the data.
 Then to simulate the environment of a trading firm I converted the csv into a database and uploaded it to MySQL Workbench 8.0.
 
 From there, the data was analyzed in SQL.
+
+Three important metrics that I was told are constantly looked at are, 
+  1) Average Monthly Volatility - This is important because it gives an understanding of when the market is most volatile, and risk should be accessed conservatively.
+  2) User Average Networth - This is important because it allows you to track which users are trading the most money on your firm, something that should be constantly tracked.
+  3) Average Trades per Month - This is important becaue it is a metric that allows you to see the usage of the Firm m/m.
+
+From there I wrote SQL queries to find out this information which can be found in the 'SQL_Queiries' section.
+
+Lastly, I wanted to show off this information using Power BI, which can be found in the 'Power_BI_Visualization' section.
