@@ -1,0 +1,21 @@
+MySQL Query
+-See Basic Data:
+
+select * 
+from trade_datatrade_data
+
+-See Most Volatile Month:
+
+select date_format(tradedate, '%M') AS month,
+COUNT(*) as numtrades,
+sum(tradevalue) as totaltradevalue
+from trade_data
+group by month
+order by numtrades desc, totaltradevalue desc 
+limit 5
+
+-See Highest Networth Client:
+select userid, sum(tradevalue) as networth
+from trade_data
+group by userid
+order by networth desc
